@@ -19,6 +19,9 @@ def preprocess_image(image):
     except Exception as e:
         print(f"Error preprocessing image: {e}")
         return None
+@app.route('/')
+def index():
+    return 'Welcome to my Flask application!'
 
 @app.route('/predict', methods=['POST'])
 def predict():
