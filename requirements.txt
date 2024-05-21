@@ -1,5 +1,6 @@
-Flask==2.3.2
-Flask-CORS==3.0.10
-tensorflow==2.12.0
-numpy==1.23.2
-wikipedia==1.4.0
+flask
+flask-cors
+tensorflow
+numpy
+wikipedia
+gunicorn
